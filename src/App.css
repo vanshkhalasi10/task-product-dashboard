@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; 
+}
+
+/* Fix mobile 100vh issue */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile safe min-height */
+.min-h-screen-mobile {
+    min-height: -webkit-fill-available; /* Safari/Chrome mobile */
+}
+

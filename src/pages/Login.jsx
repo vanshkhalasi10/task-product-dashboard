@@ -37,7 +37,7 @@ const Login = () => {
           placeholder='Username'
           className='w-full border rounded px-3 py-2 mb-3 focus:outline-none focus:ring-2 focus:-ring-blue-500'
 
-        />
+        />   <span className="ml-2 text-gray-500">admin</span>
 
         <input
           type="text"
@@ -47,7 +47,7 @@ const Login = () => {
           placeholder='Password'
           className='w-full border rounded px-3 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500'
 
-        />
+        />   <span className="ml-2 text-gray-500">1234</span>
 
         <button
           type='submit'

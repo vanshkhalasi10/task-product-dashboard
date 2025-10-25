@@ -36,7 +36,7 @@ const Navbar = () => {
                         </NavLink>
 
                         {/* Products Dropdown */}
-                        <div className="relative ">
+                        {/* <div className="relative ">
                             <button
                                 onClick={() =>{ 
                                     setProductOpen(!productOpen)
@@ -65,7 +65,7 @@ const Navbar = () => {
                                     </NavLink>
                                 </div>
                             )}
-                        </div>
+                        </div> */}
 
                         <button
                             onClick={handlelogout}
@@ -117,7 +117,7 @@ const Navbar = () => {
                     </NavLink>
 
                     {/* Mobile Products Submenu */}
-                    <div className="flex flex-col space-y-1">
+                    {/* <div className="flex flex-col space-y-1">
                         <button
                             onClick={() => setProductOpen(!productOpen)}
                             className="text-left w-full px-3 py-2 rounded-md hover:bg-blue-500"
@@ -142,7 +142,7 @@ const Navbar = () => {
                                 </NavLink>
                             </div>
                         )}
-                    </div>
+                    </div> */}
 
                     <button
                         onClick={handlelogout}
